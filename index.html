@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkSync Dashboard</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>WorkSync</h2>
+        </div>
+
+        <ul>
+
+            <li class="active">
+                <i class="fa-solid fa-house"></i>
+                <span>Dashboard</span>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-calendar-check"></i>
+                <span>Attendance</span>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-wallet"></i>
+                <span>Salary</span>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-plane-departure"></i>
+                <span>Leave</span>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-user"></i>
+                <span>Profile</span>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span>Logout</span>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <!-- Navbar -->
+
+        <header class="topbar">
+
+            <div class="title">
+                <h1>Dashboard</h1>
+                <p>Welcome Back, Sagar 👋</p>
+            </div>
+
+            <div class="top-right">
+
+                <i class="fa-solid fa-bell notification"></i>
+
+                <div class="profile">
+
+                    <img src="https://i.pravatar.cc/100" alt="Profile">
+
+                    <div>
+                        <h4>Sagar</h4>
+                        <small>Flutter Intern</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- Dashboard Cards -->
+
+        <section class="cards">
+
+            <div class="card">
+                <i class="fa-solid fa-calendar-check icon blue"></i>
+                <h2>22</h2>
+                <p>Present Days</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-wallet icon green"></i>
+                <h2>₹18,500</h2>
+                <p>Estimated Salary</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-plane icon orange"></i>
+                <h2>8</h2>
+                <p>Remaining Leave</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-chart-line icon purple"></i>
+                <h2>91%</h2>
+                <p>Performance</p>
+            </div>
+
+        </section>
+
+        <!-- Recent Activity -->
+
+        <section class="activity">
+
+            <h2>Recent Activity</h2>
+
+            <table>
+
+                <tr>
+                    <th>Date</th>
+                    <th>Activity</th>
+                    <th>Status</th>
+                </tr>
+
+                <tr>
+                    <td>08 Jul 2026</td>
+                    <td>Check In - 09:05 AM</td>
+                    <td><span class="success">Completed</span></td>
+                </tr>
+
+                <tr>
+                    <td>07 Jul 2026</td>
+                    <td>Leave Request</td>
+                    <td><span class="pending">Pending</span></td>
+                </tr>
+
+                <tr>
+                    <td>05 Jul 2026</td>
+                    <td>Salary Generated</td>
+                    <td><span class="success">Completed</span></td>
+                </tr>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
